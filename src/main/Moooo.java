@@ -37,7 +37,8 @@ public class Moooo extends Application {
                     case UP:    Nord = true; break;  
                     case DOWN:  Sued = true; break;  
                     case LEFT:  West = true; break;  
-                    case RIGHT: Ost  = true; break;                 
+                    case RIGHT: Ost  = true; break;    
+                    default: break;
                 }  
             }  
         });  
@@ -48,7 +49,8 @@ public class Moooo extends Application {
                     case UP:    Nord = false; break;  
                     case DOWN:  Sued = false; break;  
                     case LEFT:  West = false; break;  
-                    case RIGHT: Ost  = false; break;                      
+                    case RIGHT: Ost  = false; break;  
+                    default: break;
                 }  
             }  
         });  
