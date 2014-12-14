@@ -88,13 +88,13 @@ public class Moooo extends Application {
 				if (West)
 					dx -= 1;
 
-				moveHeroBy(dx, dy);
+				moveHeldBy(dx, dy);
 			}
 		};
 		timer.start();
 	}
 
-	private void moveHeroBy(int dx, int dy) {
+	private void moveHeldBy(int dx, int dy) {
 		if (dx == 0 && dy == 0)
 			return;
 
